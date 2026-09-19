@@ -1,0 +1,1 @@
+// Design a signed multiplier using Booth’s algorithm. 
