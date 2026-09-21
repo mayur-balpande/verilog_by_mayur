@@ -1,4 +1,4 @@
-//
+//Write a synchronous FIFO.
 
 module q68 #(
     parameter DATA_WIDTH = 8,
