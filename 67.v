@@ -1,6 +1,6 @@
 //Write a synchronous FIFO.
 
-module q68 #(
+module q67 #(
     parameter DATA_WIDTH = 8,
     parameter ADDR_WIDTH = 4
 ) (
