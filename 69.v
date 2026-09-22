@@ -1,5 +1,5 @@
 // Write a Mealy machine for sequence detector (e.g., 101). 
-module mealy_sequence_detector_101 (
+module q69 (
     input  wire clk,
     input  wire reset,
     input  wire serial_in,
