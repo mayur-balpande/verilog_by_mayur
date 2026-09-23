@@ -1,6 +1,6 @@
 //Design FSM for elevator control.
 
-module elevator_fsm (
+module q72 (
     input  wire       clk,
     input  wire       rst,
 
