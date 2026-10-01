@@ -4,10 +4,10 @@ module q121 #(
     parameter integer DATA_WIDTH   = 8,
     parameter integer DELAY_CYCLES = 4
 ) (
-    input  wire                  clk,
-    input  wire                  reset,
-    input  wire [DATA_WIDTH-1:0] data_in,
-    output wire [DATA_WIDTH-1:0] data_out
+    input clk,
+    input reset,
+    input [DATA_WIDTH-1:0] data_in,
+    output [DATA_WIDTH-1:0] data_out
 );
 
     reg [DATA_WIDTH-1:0] shift_reg [0:DELAY_CYCLES-1];
